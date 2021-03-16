@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Pali&Dispari</title>
+  <title>JS MineField</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -36,15 +36,27 @@
    -->
 
   <div class="container">
+      <div class="row">
 
-    <h1 id="maintitle"></h1>
+        <!-- SELECT -->
+        <div class="spacing">
+          <select id="difficulty">
+            <option value="">Choose Difficulty</option>
+            <option value="1">Beginner</option>
+            <option value="2">Pro</option>
+            <option value="3">Extreme</option>
+          </select>
+        </div>
 
-  </div>
+        <!-- BUTTON -->
+        <input id="play" type="button" name="" value="PLAY" >
+        <!-- SCORE -->
 
+        <h1 id="score"></h1>
+      </div>
+    </div>
 
+    <script src="js/script.js" ></script>
 
-<script src="js/script.js">
-
-</script>
-</body>
-</html>
+  </body>
+  </html>
